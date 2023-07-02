@@ -1,7 +1,7 @@
 version: '3'
 services:
   go-app:
-    container_name: gomyapp
+    container_name: go-myapp
     restart: on-failure:3
     build:
       dockerfile: Dockerfile.go
