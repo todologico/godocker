@@ -1,4 +1,4 @@
 # godocker
 ## Golang Dockerfiles 
-### My module - simple hallo world with go
-### Go reload Module with Fresh
+### Mymodule - simple hallo world with go
+### Go Reload Module with Fresh
