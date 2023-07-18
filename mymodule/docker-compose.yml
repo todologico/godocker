@@ -1,0 +1,10 @@
+version: '3'
+services:
+  go-app:
+    container_name: goalone
+    restart: on-failure:3
+    build:
+      dockerfile: Dockerfile.go
+      context: .   
+    ports:
+      - "6001:8080"  

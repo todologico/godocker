@@ -1,0 +1,14 @@
+version: '3'
+services:
+  goapp:
+    container_name: goreloadenv
+    restart: on-failure:3
+    volumes:
+      - ./:/go
+    env_file:
+      - .env
+    build:
+      dockerfile: Dockerfile
+      context: . 
+    ports:
+      - "9004:8080"
